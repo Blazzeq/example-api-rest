@@ -44,10 +44,10 @@ public class MovieService
     @EventListener(ApplicationReadyEvent.class)
     public void fillDB()
     {
-        save(new Movie(1L, "Avengers: Endgame", "Anthony Russo", LocalDate.of(2019, 4, 10)));
-        save(new Movie(2L, "The Godfather", "Francis Ford Coppola", LocalDate.of(1972, 3, 15)));
-        save(new Movie(3L, "Joker", "Todd Phillips", LocalDate.of(2019, 8, 31)));
-        save(new Movie(4L, "Se7en", "David Fincher", LocalDate.of(1995, 9, 15)));
-        save(new Movie(5L, "Goodfellas", "Martin Scorsese", LocalDate.of(1990, 9, 12)));
+        save(new Movie("Avengers: Endgame", "Anthony Russo", LocalDate.of(2019, 4, 10)));
+        save(new Movie("The Godfather", "Francis Ford Coppola", LocalDate.of(1972, 3, 15)));
+        save(new Movie("Joker", "Todd Phillips", LocalDate.of(2019, 8, 31)));
+        save(new Movie("Se7en", "David Fincher", LocalDate.of(1995, 9, 15)));
+        save(new Movie("Goodfellas", "Martin Scorsese", LocalDate.of(1990, 9, 12)));
     }
 }

@@ -20,9 +20,8 @@ public class Movie
     {
     }
 
-    public Movie(Long id, String title, String director, LocalDate yearOfProduction)
+    public Movie(String title, String director, LocalDate yearOfProduction)
     {
-        this.id = id;
         this.title = title;
         this.director = director;
         this.yearOfProduction = yearOfProduction;
